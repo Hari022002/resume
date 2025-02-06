@@ -1,0 +1,103 @@
+body {
+    font-family: "Times New Roman", Times, serif;
+    margin: 0;
+    padding: 20px;
+    
+
+}
+
+.container {
+    max-width: 800px;
+    padding: 40px;
+    margin: auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.border{
+    border: 1px solid #333; 
+    padding: 35px;
+}
+.info span {
+    margin: 2px;
+}
+
+.profile img {
+    height: 204px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.career {
+    margin-top: 25px;
+}
+
+.qualification {
+    margin-top: 25px;
+}
+
+.subject {
+    margin-top: 25px;
+}
+
+.interest {
+    margin-top: 25px;
+}
+.bio{
+    margin-top: 25px;
+}
+.certificate {
+    margin-top: 25px;
+}
+
+.declaration {
+    margin-top: 25px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table,
+th,
+td {
+    border: 1px solid;
+    padding: 10px;
+    text-align: left;
+}
+
+
+
+.colon {
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+.space {
+    margin-left: 35px;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    line-height: 1.6;
+}
+
+.detail {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.detail strong {
+    min-width: 140px;
+    text-align: left;
+}
+
